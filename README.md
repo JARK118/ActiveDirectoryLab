@@ -20,36 +20,75 @@ In this project we are going to be creating an Active Directory home lab environ
 - <b>Windows 10</b>
 - <b>Windows Server 19</b>
 
-<h2>Program walk-through:</h2>
+<h2>Steps:</h2>
 
 <p align="center">
 Architecture of Lab: <br/>
 <img src="https://i.imgur.com/NgF8Khd.png" height="80%" width="80%" alt="Architecture of Lab"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+## Download and install Oracle VirtualBox from the official website.
+[Oracle Virtual Box](https://www.virtualbox.org/)
+
+## Download the Windows 10 and Server 2019 ISO files.
+[Windows 10 iso](https://www.microsoft.com/en-us/software-download/windows10ISO)
+
+[Windows Server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019)
+
+## Create a new virtual machine by clicking on "New" in VirtualBox, naming it "Domain Controller," and selecting the "Windows Server 2019" ISO file as the boot media.
+
+<img src="https://i.imgur.com/6QSlzAi.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+<img src="https://i.imgur.com/ONAk46n.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+##  Configure the virtual machine by giving it two network adapters: one for connecting to the internet and the other for the private network.
+
+<img src="https://i.imgur.com/5vmxtZa.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+<img src="https://i.imgur.com/5qX3Bt1.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+##  Install Server 2019 on the virtual machine and assign IP addressing for the internal network.
+
+<img src="https://i.imgur.com/fs2yD6O.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+<img src="https://i.imgur.com/rf9njlc.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+##  Name the server and install Active Directory to create the domain.
+
+<img src="https://i.imgur.com/Hp5iV1M.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+<img src="https://i.imgur.com/LsDOAwG.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+##  Configure routing so that clients on the private network can access the internet through the domain controller.
+
+<img src="https://i.imgur.com/0rudPHD.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+<img src="https://i.imgur.com/htnWNZF.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+<img src="https://i.imgur.com/eRSrpgI.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+##  Set up DHCP on the domain controller.
+
+<img src="https://i.imgur.com/fwr1sY1.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+<img src="https://i.imgur.com/kwLPFz9.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+##  Run the PowerShell script to create 1000 users in Active Directory.
+
+[Power Shell script for creating users](https://github.com/joshmadakor1/AD_PS)
+
+##  Create a new virtual machine named "Client1" and install Windows 10 on it.
+
+<img src="https://i.imgur.com/2k4moxN.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+##  Connect the client machine to the private network and join it to the domain. Open Command Line Interface and use the ipconfig command.
+
+<img src="https://i.imgur.com/iHsWSDu.png" height="80%" width="80%" alt="Architecture of Lab"/>
+
+
+##  Log into the client 1 machine with a domain account.
+
+
 
 <!--
  ```diff
