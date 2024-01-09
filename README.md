@@ -23,8 +23,8 @@ In this project we are going to be creating an Active Directory home lab environ
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Architecture of Lab: <br/>
+<img src="https://i.imgur.com/NgF8Khd.png" height="80%" width="80%" alt="Architecture of Lab"/>
 <br />
 <br />
 Select the disk:  <br/>
