@@ -1,9 +1,9 @@
 # <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+ ### [YouTube Demonstration](https://www.youtube.com/watch?v=MHsI8hJmggI&list=PLqBeiU46hx1H--SNfTrohTOWeqkK-M2Y0&index=1&t=1s)
 
 <h2>Description</h2>
-In this project we are going to be creating an Active Directory home lab environment using virtual machines on Oracle's VirtualBox. This lab will give us practical skills in Active Directory administration, using Powershell to automate provisions, maintaining, and deprovisioning user accounts. We will also set up a Remote Access Servers (RAS) feature to support NAT/PAT and implement and maintain Windows DNS and DHCP services.
+In this project I am going to be creating an Active Directory home lab environment using virtual machines on Oracle's VirtualBox. This lab will provide practical skills in Active Directory administration, using Powershell to automate provisions, maintaining, and deprovisioning user accounts. I will also set up a Remote Access Servers (RAS) feature to support NAT/PAT and implement and maintain Windows DNS and DHCP services. 
 
 <br />
 
