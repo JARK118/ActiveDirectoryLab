@@ -27,6 +27,7 @@ Architecture of Lab: <br/>
 <img src="https://i.imgur.com/NgF8Khd.png" height="80%" width="80%" alt="Architecture of Lab"/>
 <br />
 <br />
+
 ## Download and install Oracle VirtualBox from the official website.
 [Oracle Virtual Box](https://www.virtualbox.org/)
 
@@ -85,9 +86,11 @@ Architecture of Lab: <br/>
 
 <img src="https://i.imgur.com/iHsWSDu.png" height="80%" width="80%" alt="Architecture of Lab"/>
 
+<img src="https://i.postimg.cc/GhKtZHvb/Active-Directory-Lab-step-15.png" height="80%" width="80%" alt="Architecture of Lab"/>
 
 ##  Log into the client 1 machine with a domain account.
 
+<img src="https://i.postimg.cc/Gt9gdB96/Active-Directory-Lab-step-16.png" height="80%" width="80%" alt="Architecture of Lab"/>
 
 
 <!--
